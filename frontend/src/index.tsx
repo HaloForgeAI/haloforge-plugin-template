@@ -10,10 +10,8 @@ import { HelloToolbarBadge } from "./HelloToolbarBadge";
 
 const PLUGIN_ID = "dev.haloforge.hello";
 
-const plugin = definePlugin({
+export default registerPlugin(PLUGIN_ID, definePlugin({
   slots: {
     "devkit.toolbar": HelloToolbarBadge,
   },
-});
-
-registerPlugin(PLUGIN_ID, plugin);
+}));
