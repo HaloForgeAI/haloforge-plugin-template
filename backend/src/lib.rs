@@ -30,7 +30,7 @@ impl HaloForgePlugin for HelloPlugin {
         PluginMetadata {
             id: "dev.haloforge.hello".into(),
             name: "Hello World".into(),
-            version: "0.2.0".into(),
+            version: "0.2.1".into(),
             description: "Minimal demo plugin that injects a greeting into the DevKit toolbar with the public SDK.".into(),
             author: "HaloForge Team".into(),
             abi_version: PLUGIN_ABI_VERSION,

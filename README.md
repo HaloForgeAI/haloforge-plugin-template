@@ -30,8 +30,8 @@ A minimal Level 2 plugin template for [HaloForge](https://github.com/HaloForgeAI
 
 5. Validate and package with the public packager:
    ```bash
-   npx @haloforge/plugin-pack check .
-   npx @haloforge/plugin-pack pack . --release
+   npx @haloforge/plugin-pack@0.2.11 check .
+   npx @haloforge/plugin-pack@0.2.11 pack . --release
    ```
 
 ## Structure
@@ -72,6 +72,8 @@ The template manifest also declares:
 - `compatibility.min_host_api_version`
 - `host_capabilities`
 - explicit host permissions for every public host hook it consumes
+
+If your plugin opens plugin routes from deep links, files, or other host surfaces, add a `window` block to the manifest. Use `document_handlers` only when the frontend can really consume the routed resource, for example `/open?path=...`; otherwise leave it out until that route exists.
 
 ## Dependencies
 
