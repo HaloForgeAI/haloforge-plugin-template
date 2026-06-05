@@ -30,8 +30,8 @@ A minimal Level 2 plugin template for [HaloForge](https://github.com/HaloForgeAI
 
 5. Validate and package with the public packager:
    ```bash
-   npx @haloforge/plugin-pack@0.2.11 check .
-   npx @haloforge/plugin-pack@0.2.11 pack . --release
+   npx @haloforge/plugin-pack@0.2.13 check .
+   npx @haloforge/plugin-pack@0.2.13 pack . --release
    ```
 
 ## Structure
