@@ -2,7 +2,7 @@
   "$schema": "https://haloforge.dev/schemas/plugin/v1.json",
   "id": "dev.haloforge.hello",
   "name": "Hello World",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Minimal demo plugin: injects a greeting badge into the DevKit toolbar using the public plugin SDK.",
   "long_description": "Demonstrates Level 2 slot injection, public host navigation/theme hooks, and a simple hello_greet IPC command without relying on private HaloForge bridge APIs.",
   "author": "HaloForge Team",
@@ -11,7 +11,7 @@
   "icon": "assets/icon.png",
 
   "compatibility": {
-    "min_app_version": "1.0.0",
+    "min_app_version": "0.8.0",
     "min_host_api_version": "0.2.10",
     "platforms": ["windows", "macos", "linux"]
   },
